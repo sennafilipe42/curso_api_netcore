@@ -11,7 +11,7 @@ namespace Api.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuildes);
+            base.OnModelCreating(modelBuilder);
         }
     }
 
