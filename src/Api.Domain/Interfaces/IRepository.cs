@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Api.Domain.Entities;
 
 namespace Api.Domain.Interfaces
-{
+{               //o T pode ser qualquer letra
     public interface IRepository<T> where T : BaseEntity
     {
         Task<T> InsertAsync(T item);
